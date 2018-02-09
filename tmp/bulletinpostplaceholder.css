@@ -1,0 +1,280 @@
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.box, a.box{
+	border-style: transparent;
+	border-width: 1px;
+	border-color: red;
+}
+
+/*optional boxes for extra visual aid*/
+.sbox{
+	border-style: solid;
+	border-width: 1px;
+	border-color: yellow;
+}
+
+.mbox{
+	border-style: dashed;
+	border-width: 1px;
+	border-color: green;
+}
+/**/
+
+.maindiv{
+	width: 100%;
+	height: 100%;
+}
+
+	.navdiv{
+		height: 90px;
+		width: 101%;
+		border-bottom: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: rgba(0, 0, 0, 0.1);
+	}
+
+		.searchdiv{
+			height: 100%;
+			width: 55%;
+			padding-left: 60px;
+		}
+
+			.searchinput{
+				height: 55px;
+				width: 77%;
+				margin-top: 17px;
+				border:solid;
+				border-right: none;
+				border-width: 1px;
+				border-radius: 6px 0px 0px 6px;
+				border-color: rgba(0, 0, 0, 0.1);
+			}
+
+			.searchbutton1{
+				font-family: 'Raleway', sans-serif;
+				font-size: 20px;
+				height: 55px;
+				width: 19%;
+				margin-top: 17px;
+				border:solid;
+				border-width: 0px;
+				border-radius: 0px 6px 6px 0px;
+				}
+
+		.optionsdiv{
+			width: 48%;
+			padding-left: 30px;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 400;
+			color: rgb(0, 0, 0);
+		}
+
+			.bulletin, a.bulletin{
+				padding-top: 25px;
+				width: 33%;
+				text-align: center;
+				font-size: 28px;
+				color: rgba(0,0,0);
+				text-decoration: none;
+			}
+
+			.dooerrs, a.dooerrs{
+				padding-top: 25px;
+				width: 33%;
+				text-align: center;
+				font-size: 28px;
+				color: rgba(0,0,0);
+				text-decoration: none;
+			}
+
+			.profile, a.profile{
+				padding-top: 25px;
+				width: 34%;
+				text-align: center;
+				font-size: 28px;
+				color: rgba(0,0,0);
+				text-decoration: none;
+			}
+
+
+
+	.belownavdiv{
+		height: 100%;
+		width: 101%;
+		padding-left: 30px;
+		padding-top: 0px;
+		position: fixed;
+	}
+
+		.titlediv{
+			height: 120px;
+			width: 87%;
+			font-weight: 700;
+		}
+
+			.titletext{
+				height: 100px;
+				padding-right: 20px;
+				text-align: left;
+				border-right: solid;
+				border-right-color: rgba(0, 0, 0, 0.1);
+				border-right-width: 1px;
+			}
+
+				.maintitle{
+					margin-left: 26px;
+					padding: 0px;
+					font-family: 'Ubuntu', sans-serif;
+					font-size: 60px;
+				}
+
+				.subtitle{
+					margin-left: 30px;
+					margin-top: -30px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 200;
+					font-size: 18px;
+					font-weight: 200;
+				}
+
+			.postdiv{
+				padding-left: 20px;
+				padding-top: 15px;	
+				height: 100px;
+				width: 50%;
+			}
+
+				.postbutton{	
+					height: 100px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 100;
+					font-style: italic;
+					font-size: 45px;
+				}
+
+		.sidemenudiv{
+			height: 100%;
+			width: 14%;
+			margin-left: 1%;
+			border-left: solid;
+			border-width: 1px;
+			border-color: rgba(0, 0, 0, 0.1);
+		}
+
+			.profileoptionsdiv{
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: 300;
+				border-bottom: solid;
+				border-bottom-width: 1px;	
+				border-bottom-color: rgba(0, 0, 0, 0.1); 
+			}
+
+				.profileoptions{
+					font-size: 40px;				
+				}
+
+			.modifysearchdiv{
+				font-family: 'Raleway', sans-serif;
+				padding: 15px 0px 15px 15px;
+				border-bottom: solid;
+				border-bottom-width: 1px;
+				border-bottom-color: rgba(0, 0, 0, 0.1); 
+			}
+
+				.modifytext{
+
+				}
+
+				.dollarstext{
+					margin-bottom: 0px;
+				}
+
+				.dollarsdiv{
+					height: 50px;
+					padding-left: 4%; 
+				}
+
+					.check1{
+						align-self: center;
+					}
+
+					.min1{
+						width: 30%;
+						height: 34px;
+						margin-top: 8px;
+						border-style: solid;
+						border-color: rgba(0,0,0,0.1);
+						border-radius: 3px; 
+						margin-left: 10px;
+					}
+
+					.to1{
+						width: 20%;
+						text-align: center;
+						margin-top: 12px;
+					}
+
+					.max1{
+						width: 30%;
+						height: 34px;
+						margin-top: 8px;
+						border-style: solid;
+						border-color: rgba(0,0,0,0.1);
+						border-radius: 3px; 
+					}
+
+				.daystext{
+					margin-bottom: 0px;
+				}
+
+				.daysleftdiv{
+					height: 50px;
+					padding-left: 4%;
+				}
+
+					.check2{
+						align-self: center;
+					}
+
+					.min2{
+						width: 30%;
+						height: 34px;
+						margin-top: 8px;
+						border-style: solid;
+						border-color: rgba(0,0,0,0.1);
+						border-radius: 3px; 
+						margin-left: 10px;
+					}
+
+					.to2{
+						width: 20%;
+						text-align: center;
+						margin-top: 12px;
+					}
+
+					.max2{
+						width: 30%;
+						height: 34px;
+						margin-top: 8px;
+						border-style: solid;
+						border-color: rgba(0,0,0,0.1);
+						border-radius: 3px; 
+					}
+
+				.searchbutton2{
+					width: 60%;
+					margin-left: 20%;
+					padding: 10px;	
+					border-width: 0px;
+					border-radius: 6px;
+				}
+
+			.logoutdiv{
+				font-family: 'Raleway', sans-serif;
+				font-size: 18px;
+				padding-left: 30px;
+				padding-top: 15px;
+			}
